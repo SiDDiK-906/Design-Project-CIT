@@ -1,0 +1,53 @@
+/*======================================
+			Portfolio Section Start
+======================================*/
+ 
+ 
+#portfolio .up{
+	height: 100%;
+	width: 100%; 
+}
+ 
+#portfolio .common img{
+	width: 100%;
+	height: 100%;
+}
+#portfolio .common{
+	position: relative;
+	transition: 0.4s;
+}
+#portfolio .common .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0,0.6);
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.4s;
+}
+#portfolio .common .overlay i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	height: 80px;
+	width: 80px;
+	background: rgba(96, 157, 219, 0.85);
+	transition: 0.4s;
+	cursor: pointer;
+}
+#portfolio .common:hover .overlay{
+	opacity: 1;
+}
+#portfolio .common .overlay i:hover{
+	background: #609ddb;
+}
+/*======================================
+			Portfolio Section End
+======================================*/
